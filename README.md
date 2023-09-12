@@ -1,8 +1,34 @@
-# Queens Tech and Media Association (QTMA) www.qtma.ca
+## QTMA website
 
-QTMA is a start-up accelerator club run by Queens' University students. The club was looking for someone to revamp their website during 2022, and I volunteered to build the club a website so I could take on the challenge of learning Next.js. The website linked in the title is what I produced for the club in two-weeks time.
+The official website for [Queen's Tech and Media Association](https://qtma.ca) (QTMA)!
 
-## Technologies
-- Next.js
-- SASS
-- IFTTT
+QTMA is a product development club & tech incubator at [Queen's University](https://www.queensu.ca/)
+devoted to helping tech & business students successfully plan, design, build and launch software
+products which are judged by industry specialists at the end of each school term.
+
+Dev team:
+
+* [Kevin Yu](https://github.com/KevinYuCode): Initial design & implementation
+* [Reid Moffat](https://github.com/reid-moffat): 2023 rework lead
+* [Yves Alikalfic](https://github.com/yves-a): 2023 rework developer
+
+## Running locally
+
+<i>This site is built with [Next.js](https://nextjs.org/) and hosted with [Vercel](https://vercel.com/)</i>
+
+First, install dependencies:
+
+```bash
+npm ci # Or 'npm i', but this is faster & no package-lock.json re-write
+```
+
+Then run in development mode (recommended for dev work):
+
+```bash
+next dev
+```
+
+Then open the site at http://localhost:3000
+
+*Note: you can also view a preview deployment [here](https://qtma-website-git-staging-reid-moffat.vercel.app/)
+(this is for staging, but you can update the git branch in th URL)*
